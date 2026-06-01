@@ -9,23 +9,25 @@ To write a Python program that calculates the **area of a circle** based on the 
 3. **Define the method**: Inside the class, define the method `mech` to calculate the area of the circle using the formula:  
    Area = pi *r^2 
 4. **Execute the program**: Create an object of the class and call the method with the radius value.
+## 🧾 Program:
+~~~~~
+import math
 
-## 🧾 Program
-```
 class cse:
-    def mech(self, r):
-        area = 3.14 * r * r
-        print("Area of circle is:", area)
+    def mech(self, radius):
+        area = math.pi * radius ** 2
+        print(f"Area of circle: {area:.2f}")
 
-radius = float(input("Enter radius: "))
+
+r = float(input())
 
 obj = cse()
-obj.mech(radius)
-```
-## Output
-```
-Enter radius: 5
-Area of circle is: 78.5
-```
+obj.mech(r)
+~~~~~~~
+
+
+## Output:
+<img width="955" height="240" alt="WhatsApp Image 2026-05-28 at 9 01 04 PM" src="https://github.com/user-attachments/assets/a8fc8153-900e-4f45-9fdf-836b5d8335fb" />
+
 ## Result
 the output is verified
